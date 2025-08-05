@@ -11,8 +11,8 @@ public class BusinessLogicHealthIndicator implements HealthIndicator {
     
     // TODO 9: Add counters to track requests and errors
     // TODO 10: Uncomment the following code:
-    private final AtomicLong requestCount = new AtomicLong(5);
-    private final AtomicLong errorCount = new AtomicLong(6);
+    private final AtomicLong requestCount = new AtomicLong(0);
+    private final AtomicLong errorCount = new AtomicLong(0);
 
     // Placeholder counters - replace with actual implementation
     /*private final AtomicLong requestCount = new AtomicLong(0);
